@@ -5,7 +5,7 @@ if edad < 0:
     print("Edad no válida. Por favor, ingresa un número positivo.")
 elif edad >= 18:
     print("¡Puedes ver películas clasificadas R!")
-elif edad >= 13:  # Python llega aquí solo si edad NO es >= 18 Y NO es < 0
+elif edad >= 13: 
     print("Puedes ver películas clasificadas PG-13.")
-else:  # Si no es < 0, ni >= 18, ni >= 13, entonces debe ser < 13 y >= 0
+else: 
     print("Te recomendamos películas clasificadas G o PG.")
