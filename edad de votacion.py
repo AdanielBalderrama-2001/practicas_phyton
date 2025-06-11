@@ -3,8 +3,8 @@ edad = int(edad_str)
 if edad >=18:
     print ("Eres mayor de edad, puedes votar por el Capitan Lara :)")
 elif edad >= 13:
-    print ("Que haces aqui, ve hacer tus deberes maldito vago")
+    print ("Lo lamento, no puedes votar eres menor de edad")
 elif edad >=5:
-    print ("Cambiate los pañales puerco.")  
+    print ("Eres un niño o niña.")  
 else :
-    print ("Eres un puberto")
+    print ("No puedes votar...")
